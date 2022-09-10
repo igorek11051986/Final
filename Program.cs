@@ -7,6 +7,9 @@ arr1 = s.Split(' ');
 //string[] arr1 = new string[4] { "1234", "1567", "-2", "computer science" };
 string[] arr2 = new string[arr1.Length];
 
+NewArray(arr1, arr2);
+PrintArray(arr2);
+
 void NewArray(string[] a, string[] b)
 {
     int count = 0;

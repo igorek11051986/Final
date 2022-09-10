@@ -6,3 +6,16 @@ arr1 = s.Split(' ');
 //string[] arr1 = new string[3] { "Russia", "Denmark", "Kazan" };
 //string[] arr1 = new string[4] { "1234", "1567", "-2", "computer science" };
 string[] arr2 = new string[arr1.Length];
+
+void NewArray(string[] a, string[] b)
+{
+    int count = 0;
+    for (int i = 0; i < a.Length; i++)
+    {
+        if (a[i].Length <= 3)
+        {
+            b[count] = a[i];
+            count++;
+        }
+    }
+}

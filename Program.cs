@@ -19,3 +19,11 @@ void NewArray(string[] a, string[] b)
         }
     }
 }
+void PrintArray(string[] z)
+{
+    for (int i = 0; i < z.Length; i++)
+    {
+        Console.Write($"{z[i]} ");
+    }
+    Console.WriteLine();
+}
